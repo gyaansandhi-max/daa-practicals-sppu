@@ -23,12 +23,6 @@ print(f"Step count (iterative) = {steps}")
 
 
 
-
-
-
-
-
-
 # Recursive Fibonacci with step counter
 
 steps = 0  # global step counter
@@ -47,4 +41,5 @@ n = int(input("Enter n: "))
 steps = 0
 result = fib_recursive(n)
 print(f"Fibonacci({n}) = {result}")
+
 print(f"Step count (recursive) = {steps}")
